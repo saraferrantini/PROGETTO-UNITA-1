@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
+body {
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  text-align: center;
+  font-size: 30px;
+}
+
 .box1 {
   height: 100px;
   width: 400px;
@@ -13,99 +21,38 @@
   background: rgb(0, 0, 0);
 }
 
-.logo {
-  margin-bottom: 30px;
-  padding-top: 10px;
-}
-
-body {
-  color: #393d41;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.65;
-  text-align: center;
-  font-size: 30px;
+.logo img {
+  width: 30%;
+  margin-top: 7%;
 }
 
 .box2 {
-  background-color: aqua;
-  height: 100%;
-  width: 100%;
+  background-color: white;
 }
 
 .sfondo {
   background-image: url(./images/banner.jpg);
-  background-size: cover;
-}
-
-.sono {
-  margin-bottom: 10px;
-  font-size: 50%;
-}
-.lavora {
-  color: #25a2c3;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.cerchio {
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.lavoradacasa {
-  font-size: 50%;
-}
-
-.spaziosotto {
-  margin-bottom: 20px;
-  font-size: 50%;
-}
-
-.box3 {
-  background-color: rgb(234, 37, 4);
-  color: white;
-  height: 2000%;
-  margin-bottom: 3rem;
-  padding-inline: 20%;
-  padding-block: 20%;
-}
-
-.box4 {
-  height: 20%;
-  background-color: white;
-
-  margin-bottom: 20px;
-  margin: 5%;
-  border: 1px solid #dee1e3;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .titolo {
   color: #25a2c3;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+  padding-top: 7%;
+  font-size: 75%;
 }
 
-.sottotitoli {
-  color: #25a2c3;
-  margin-bottom: 10px;
-
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  font-size: 60%;
+.titolo_secondo {
+  margin-top: -14px;
 }
 
-.sottotitolobianco {
-  font-weight: bold;
-  color: white;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 80%;
-  text-align: center;
-}
-
-.smetti {
-  font-size: 80%;
+.primoparagrafo {
+  font-size: 47%;
+  padding: 0% 19%;
+  line-height: 1.6rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 button {
@@ -120,27 +67,91 @@ button {
   border-radius: 4%;
 }
 
-.btn {
-  margin: 0 auto;
+.primo_bottone {
   align-items: center;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
+  margin-top: -43px;
 }
-.partiamo {
-  color: white;
-  font-size: 10px;
+
+.sottotitoli {
+  color: #25a2c3;
+  margin-bottom: 10px;
+  font-weight: bold;
   font-family: "Montserrat", sans-serif;
+  font-size: 60%;
+  margin-top: 20px;
 }
 
-.tremesi {
-  font-size: 40%;
-  font-style: italic;
+.secondoparagrafo {
+  margin-bottom: 10px;
+  font-size: 50%;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 50px;
 }
 
-.mario {
+.terzoparagrafo {
+  font-size: 50%;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0px 45px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cerchio {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.spaziosotto {
+  margin-bottom: 20px;
+  font-size: 50%;
+  padding: 0px 69px;
+}
+
+.box3 {
+  background-color: rgb(234, 37, 4);
+  color: white;
+  margin-bottom: 3rem;
+  padding-block: 20%;
+}
+
+.quartoparagrafo {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+}
+
+.quintoparagrafo {
   font-size: 40%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.firma {
+  font-size: 40%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  height: 20%;
+  background-color: white;
+
+  margin-bottom: 20px;
+  margin: 5%;
+  border: 1px solid #dee1e3;
+}
+
+.sottotitoli2 {
+  color: #25a2c3;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60%;
 }
 
 .boxfooter {
@@ -151,7 +162,7 @@ button {
   height: 300px;
 }
 
-.contattaci {
+.contatti {
   font-weight: bold;
   color: white;
   margin-bottom: 20px;
@@ -165,20 +176,29 @@ button {
   text-decoration: underline;
   font-size: 50%;
   color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 .via {
   font-size: 50%;
   color: white;
   margin-bottom: 10%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .copy {
   font-size: 40%;
   color: white;
+  border-top: 0.2px solid white;
+  padding-top: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -20px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .link {
   font-size: 90%;
   color: white;
+  font-family: "Open Sans", sans-serif;
 }
